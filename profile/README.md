@@ -32,7 +32,7 @@ The base station consists of a laptop or tablet running ground control software 
 radio to communicate with the drone. 
 The drone consists of the drone itself, a companion computer, (Raspberry Pi Zero 2 W) and our 
 custom receiver.
-![](https://github.com/Avy-Dawgs/system-definition/diagrams/system-diagram.drawio.svg)
+![](https://github.com/Avy-Dawgs/system-definition/blob/main/diagrams/system-diagram.drawio.svg)
 
 ### Functional Description
 The base station is the end user interface, providing the ability to configure and 
