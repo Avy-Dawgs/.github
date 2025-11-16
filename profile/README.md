@@ -32,6 +32,8 @@ The base station consists of a laptop or tablet running ground control software 
 radio to communicate with the drone. 
 The drone consists of the drone itself, a companion computer, (Raspberry Pi Zero 2 W) and our 
 custom receiver.
+
+#### Physical Diagram
 ![](https://github.com/Avy-Dawgs/system-definition/blob/main/diagrams/system-diagram.drawio.svg)
 
 ### Functional Description
@@ -44,23 +46,32 @@ along with location data coming from the drone's flight controller to find the l
 ## Current Progress
 As of now we are in the progress of testing each of our subsystems before 
 we perform the final integration. 
-Our drone has all the hardware that we need to fly it autonomously, we just have some configuration to 
-do before we test. 
-The receiver has been mostly assembled, but we have to tune our antenna, and finish up the FPGA firmware 
-development before it can be tested.
 
-We have decided to focus on our backup plan for signal strength measuring, which is to measure WiFi 
-signals, so that we have a working demonstration. 
-Once we have demonstrated the system working with this approach, we will work on integrating our 
-custom receiver into the system.
+### WiFi Signal Backup Plan
+We have decided to prioritize our backup plan, which switching out our custom receiver 
+for software that measures the strength of a WiFi signal. 
+This allows us to test our system without having the receiver completed and integrated, 
+which is the goal after this is completed.
+
+### Drone Flight
+Our drone is fully assembled, and we have done the initial testing and configuration 
+in order to fly it manually. 
+The next step is to fine tune the drone, and then fly it autonomously.
+
+### Receiver
+The receiver has been mostly assembled, but we have to tune our antenna, and finish up the 
+FPGA firmware development before it can be tested.
+
 
 ## Design File Repositories 
 * [System Definition](https://github.com/Avy-Dawgs/system-definition)
+### Drone Subsystem
 * [Drone Wiring Diagram](https://github.com/Avy-Dawgs/wiring-diagram)
 * Receiver
-    * [PCB](https://github.com/Avy-Dawgs/receiver-pcb)
+    * [PCBs](https://github.com/Avy-Dawgs/receiver-pcb)
     * [FPGA Firmware](https://github.com/Avy-Dawgs/receiver-fpga) 
 * Companion Computer 
-    * [Signal Location software](https://github.com/Avy-Dawgs/Signal-Map)
-* Base Station 
-    * [Custom QGroundControl](https://github.com/Avy-Dawgs/QGroundControl-Custom-Base-Station)
+    * [Signal Location Software](https://github.com/Avy-Dawgs/Signal-Map)
+
+### Base Station Subsystem
+* [Custom QGroundControl](https://github.com/Avy-Dawgs/QGroundControl-Custom-Base-Station)
