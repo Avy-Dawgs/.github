@@ -49,3 +49,5 @@ custom receiver into the system.
     * [Signal Location software](https://github.com/Avy-Dawgs/Signal-Map)
 * Base Station 
     * [Custom QGroundControl](https://github.com/Avy-Dawgs/QGroundControl-Custom-Base-Station)
+
+![](../videos/testvid.mp4)
