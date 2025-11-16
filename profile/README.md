@@ -1,27 +1,41 @@
-# Avy Dawgs Senior Capstone 
+# Avy Dawgs Avalanche Search Drone Senior Capstone
+Our goal is to create a drone that demonstrates autonomous 
+location identification of avalanche beacon signals.
+We aim to show that this technology can improve the current 
+standard avalanche search and rescue procedure, potentially 
+saving lives.
 
 ## Team Members 
-* Aidan Leary 
-* Hiram Perez 
-* Dax Jennings 
-* Noah Sikorski
+#### Aidan Leary 
+B.S. Computer Engineering student at the University of Utah. 
+Avid skier that grew up ski racing in New Hampshire before moving to 
+Utah for college and developing an interest in backcountry and big mountain 
+skiing.
+
+#### Hiram Perez 
+#### Dax Jennings 
+#### Noah Sikorski
 
 ## Project Overview 
-The goal of this project is to develop a drone-based approach to avalanche search and rescue. 
-This includes the development of a custom receiver for an avalanche beacon signal, the 
-integration with an autonomous drone, and the modification of open-source ground control 
-software.
-Our final system will be configured and launched by the ground control software, will 
-autonomously scan the configured search area, sending back the coordinates of victim 
-locations.
+The user will configure a search area on a laptop or tablet running ground control software and 
+will use this software to launch the drone.
+The drone will autonomously scan the configured search area and will send back RSSI readings which 
+will create a heatmap on the ground control software's map. 
+The drone will also determine the victim locations algorithmically, sending these coordinates back to the 
+ground control software.
+The user can use the heatmap to manually identify victim locations, or they can use automated 
+victim locations.
 
-Physically, the system is divided into two main subsystems: the drone, and the base station. 
+### Physical Description
+The system is divided into two main subsystems: the drone, and the base station. 
 The base station consists of a laptop or tablet running ground control software and a telemetry 
 radio to communicate with the drone. 
 The drone consists of the drone itself, a companion computer, (Raspberry Pi Zero 2 W) and our 
 custom receiver.
+![](https://github.com/Avy-Dawgs/system-definition/diagrams/system-diagram.drawio.svg)
 
-Functionally, the base station is the end user interface, providing the ability to configure and 
+### Functional Description
+The base station is the end user interface, providing the ability to configure and 
 launch the drone, as well as the ability to display the locations of discovered victims. 
 The other important piece of the functional system is the companion computer. 
 This computer performs the main logic of the design, interpreting signal strength data coming from the receiver 
@@ -40,8 +54,9 @@ signals, so that we have a working demonstration.
 Once we have demonstrated the system working with this approach, we will work on integrating our 
 custom receiver into the system.
 
-## Design Files 
+## Design File Repositories 
 * [System Definition](https://github.com/Avy-Dawgs/system-definition)
+* [Drone Wiring Diagram](https://github.com/Avy-Dawgs/wiring-diagram)
 * Receiver
     * [PCB](https://github.com/Avy-Dawgs/receiver-pcb)
     * [FPGA Firmware](https://github.com/Avy-Dawgs/receiver-fpga) 
@@ -49,5 +64,3 @@ custom receiver into the system.
     * [Signal Location software](https://github.com/Avy-Dawgs/Signal-Map)
 * Base Station 
     * [Custom QGroundControl](https://github.com/Avy-Dawgs/QGroundControl-Custom-Base-Station)
-
-![](../videos/testvid.mp4)
