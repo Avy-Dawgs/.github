@@ -30,6 +30,15 @@ ground control software.
 The user can use the heatmap to manually identify victim locations, or they can use automated 
 victim locations.
 
+### Motivation
+Our motivation is to save the lives of skiers who get caught in the unfortunate event of a avalanche.
+Data shows that more than 150 people avalanche deaths per year worldwide, with the average survival rating 
+being 92% if the victim is found within 15 minutes; and around 30% after fast search means greater probability 
+of survival
+
+![avalanche_data](https://github.com/user-attachments/assets/110a167c-fa07-4f79-b1f8-5cada9f62436)
+
+
 ### Physical Description
 The system is divided into two main subsystems: the drone, and the base station. 
 The base station consists of a laptop or tablet running ground control software and a telemetry 
