@@ -14,6 +14,8 @@ skiing.
 
 #### Hiram Perez 
 #### Dax Jennings 
+B.S. Computer Engineering, University of Utah. Park/street skier that dabbles in backcountry skiing.
+
 #### Noah Sikorski
 
 ## Project Overview 
