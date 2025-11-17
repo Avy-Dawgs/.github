@@ -13,6 +13,8 @@ Utah for college and developing an interest in backcountry and big mountain
 skiing.
 
 #### Hiram Perez 
+B.S. Computer Engineering & Electrical Engineering at the University of Utah. No skiing/snowboarding 
+experience, but interested in RF and circuit design. Utah native.
 #### Dax Jennings 
 B.S. Computer Engineering, University of Utah. Park/street skier that dabbles in backcountry skiing.
 
