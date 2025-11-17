@@ -61,10 +61,16 @@ which is the goal after this is completed.
 Our drone is fully assembled, and we have done the initial testing and configuration 
 in order to fly it manually. 
 The next step is to fine tune the drone, and then fly it autonomously.
+<img width="4284" height="5712" alt="IMG_2055 11 36 31 PM" src="https://github.com/user-attachments/assets/958aefd3-bd5c-495e-868f-96d4b4397c0d" />
+<img width="4284" height="5712" alt="IMG_2054 11 36 31 PM" src="https://github.com/user-attachments/assets/0f3d8892-546a-4324-98ca-66c43fc7ef0f" />
+
 
 ### Receiver
 The receiver has been mostly assembled, but we have to tune our antenna, and finish up the 
 FPGA firmware development before it can be tested.
+<img width="3024" height="4032" alt="IMG_2058 11 36 31 PM" src="https://github.com/user-attachments/assets/fba9cf98-6cf2-4dab-aa6e-a383ec6ba021" />
+<img width="3024" height="4032" alt="IMG_2057 11 36 31 PM" src="https://github.com/user-attachments/assets/23d37612-dff7-4099-9e8d-50652949dd28" />
+
 
 
 ## Design File Repositories 
