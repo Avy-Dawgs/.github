@@ -67,30 +67,24 @@ we perform the final integration.
 We have decided to prioritize our backup plan, which switching out our custom receiver 
 for software that measures the strength of a WiFi signal. 
 This allows us to test our system without having the receiver completed and integrated, 
-which is the goal after this is completed.
+which is still the ultimate goal.
 
-### Drone Flight
-Our drone is fully assembled, and we have done the initial testing and configuration 
-in order to fly it manually. 
-The next step is to fine tune the drone, and then fly it autonomously.
-
-<img width="480" height="720" alt="IMG_2055 11 36 31 PM" src="https://github.com/user-attachments/assets/958aefd3-bd5c-495e-868f-96d4b4397c0d" />
-<img width="480" height="720" alt="IMG_2054 11 36 31 PM" src="https://github.com/user-attachments/assets/0f3d8892-546a-4324-98ca-66c43fc7ef0f" />
-
-
-### Receiver
-The receiver has been mostly assembled, but we have to tune our antenna, and finish up the 
-FPGA firmware development before it can be tested.
-
-<img width="480" height="720" alt="IMG_2058 11 36 31 PM" src="https://github.com/user-attachments/assets/fba9cf98-6cf2-4dab-aa6e-a383ec6ba021" />
-<img width="480" height="720" alt="IMG_2057 11 36 31 PM" src="https://github.com/user-attachments/assets/23d37612-dff7-4099-9e8d-50652949dd28" />
-
+### Initial Tests 
+The following videos are from our first test with the companion computer integrated onto the drone.
 
 https://github.com/user-attachments/assets/d52003d5-fc5f-4227-8c83-529ad4e05b48
 
 https://github.com/user-attachments/assets/4c8f8e11-eded-4c3d-afc4-6c99249d23f9
 
+<img width="480" height="720" alt="IMG_2055 11 36 31 PM" src="https://github.com/user-attachments/assets/958aefd3-bd5c-495e-868f-96d4b4397c0d" />
+<img width="480" height="720" alt="IMG_2054 11 36 31 PM" src="https://github.com/user-attachments/assets/0f3d8892-546a-4324-98ca-66c43fc7ef0f" />
 
+### Receiver
+The receiver has been mostly assembled, but we still have to finish up the
+FPGA firmware development before it can be tested.
+
+<img width="480" height="720" alt="IMG_2058 11 36 31 PM" src="https://github.com/user-attachments/assets/fba9cf98-6cf2-4dab-aa6e-a383ec6ba021" />
+<img width="480" height="720" alt="IMG_2057 11 36 31 PM" src="https://github.com/user-attachments/assets/23d37612-dff7-4099-9e8d-50652949dd28" />
 
 ## Design File Repositories 
 * [System Definition](https://github.com/Avy-Dawgs/system-definition)
