@@ -86,6 +86,10 @@ FPGA firmware development before it can be tested.
 <img width="480" height="720" alt="IMG_2057 11 36 31 PM" src="https://github.com/user-attachments/assets/23d37612-dff7-4099-9e8d-50652949dd28" />
 
 
+https://github.com/user-attachments/assets/d52003d5-fc5f-4227-8c83-529ad4e05b48
+https://github.com/user-attachments/assets/4c8f8e11-eded-4c3d-afc4-6c99249d23f9
+
+
 
 ## Design File Repositories 
 * [System Definition](https://github.com/Avy-Dawgs/system-definition)
