@@ -15,10 +15,13 @@ Utah for college and developing an interest in backcountry and big mountain
 skiing.
 
 #### Hiram Perez 
+B.S. Computer Engineering & Electrical Engineering at the University of Utah. No skiing/snowboarding 
+experience, but interested in RF and circuit design. Utah native.
 #### Dax Jennings 
 B.S. Computer Engineering, University of Utah. Park/street skier that dabbles in backcountry skiing.
 
 #### Noah Sikorski
+B.S. Computer Engineering, Minor Physics at the University of Utah.
 
 ## Project Overview 
 The user will configure a search area on a laptop or tablet running ground control software and 
@@ -29,6 +32,15 @@ The drone will also determine the victim locations algorithmically, sending thes
 ground control software.
 The user can use the heatmap to manually identify victim locations, or they can use automated 
 victim locations.
+
+### Motivation
+Our motivation is to save the lives of skiers who get caught in the unfortunate event of a avalanche.
+Data shows that more than 150 people avalanche deaths per year worldwide, with the average survival rating 
+being 92% if the victim is found within 15 minutes; and around 30% after fast search means greater probability 
+of survival
+
+![avalanche_data](https://github.com/user-attachments/assets/110a167c-fa07-4f79-b1f8-5cada9f62436)
+
 
 ### Physical Description
 The system is divided into two main subsystems: the drone, and the base station. 
@@ -62,9 +74,17 @@ Our drone is fully assembled, and we have done the initial testing and configura
 in order to fly it manually. 
 The next step is to fine tune the drone, and then fly it autonomously.
 
+<img width="480" height="720" alt="IMG_2055 11 36 31 PM" src="https://github.com/user-attachments/assets/958aefd3-bd5c-495e-868f-96d4b4397c0d" />
+<img width="480" height="720" alt="IMG_2054 11 36 31 PM" src="https://github.com/user-attachments/assets/0f3d8892-546a-4324-98ca-66c43fc7ef0f" />
+
+
 ### Receiver
 The receiver has been mostly assembled, but we have to tune our antenna, and finish up the 
 FPGA firmware development before it can be tested.
+
+<img width="480" height="720" alt="IMG_2058 11 36 31 PM" src="https://github.com/user-attachments/assets/fba9cf98-6cf2-4dab-aa6e-a383ec6ba021" />
+<img width="480" height="720" alt="IMG_2057 11 36 31 PM" src="https://github.com/user-attachments/assets/23d37612-dff7-4099-9e8d-50652949dd28" />
+
 
 
 ## Design File Repositories 
