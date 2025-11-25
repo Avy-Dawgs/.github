@@ -19,6 +19,7 @@ experience, but interested in RF and circuit design. Utah native.
 B.S. Computer Engineering, University of Utah. Park/street skier that dabbles in backcountry skiing.
 
 #### Noah Sikorski
+B.S. Computer Engineering, Minor Physics at the University of Utah.
 
 ## Project Overview 
 The user will configure a search area on a laptop or tablet running ground control software and 
