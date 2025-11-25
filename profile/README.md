@@ -50,7 +50,7 @@ The drone consists of the drone itself, a companion computer, (Raspberry Pi Zero
 custom receiver.
 
 #### Physical Diagram
-![](https://github.com/Avy-Dawgs/system-definition/blob/main/diagrams/system-diagram.drawio.svg)
+![](https://github.com/Avy-Dawgs/system-definition/blob/main/.diagrams/system-diagram.drawio.svg)
 
 ### Functional Description
 The base station is the end user interface, providing the ability to configure and 
