@@ -59,17 +59,12 @@ The other important piece of the functional system is the companion computer.
 This computer performs the main logic of the design, interpreting signal strength data coming from the receiver 
 along with location data coming from the drone's flight controller to find the locations of buried victims.
 
-## Current Progress
-As of now we are in the progress of testing each of our subsystems before 
-we perform the final integration. 
+## Current Progress 
+We have demonstrated the ability to measure a WiFi signal from a mobile hotspot and find its location using the drone. 
+Due to time constraints, we decided to implement this backup plan so that we have a working demonstration 
+before we move onto testing and integrating our custom receiver.
 
-### WiFi Signal Backup Plan
-We have decided to prioritize our backup plan, which switching out our custom receiver 
-for software that measures the strength of a WiFi signal. 
-This allows us to test our system without having the receiver completed and integrated, 
-which is still the ultimate goal.
-
-### Initial Tests 
+### Initial Integration Tests
 The following videos are from our first test with the companion computer integrated onto the drone.
 
 https://github.com/user-attachments/assets/d52003d5-fc5f-4227-8c83-529ad4e05b48
