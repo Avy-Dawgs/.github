@@ -5,6 +5,8 @@ We aim to show that this technology can improve the current
 standard avalanche search and rescue procedure, potentially 
 saving lives.
 
+![](../images/saltair_sunset.png)
+
 ## Team Members 
 #### Aidan Leary 
 B.S. Computer Engineering student at the University of Utah. 
