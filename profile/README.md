@@ -24,14 +24,13 @@ B.S. Computer Engineering, University of Utah. Park/street skier that dabbles in
 B.S. Computer Engineering, Minor Physics at the University of Utah.
 
 ## Project Overview 
-The user will configure a search area on a laptop or tablet running ground control software and 
-will use this software to launch the drone.
-The drone will autonomously scan the configured search area and will send back RSSI readings which 
+Our system consists of an autonomous drone, and a base station device (laptop or tablet) running ground control 
+software.
+The user of the system will use the ground control software to configure a search area and launch the drone.
+Upon launch, the drone will autonomously scan the search area, sending RSSI readings back to the base station, which 
 will create a heatmap on the ground control software's map. 
-The drone will also determine the victim locations algorithmically, sending these coordinates back to the 
-ground control software.
-The user can use the heatmap to manually identify victim locations, or they can use automated 
-victim locations.
+The drone will also determine the victim locations algorithmically, sending estimated victim coordinates 
+back to the base station.
 
 ### Motivation
 Our motivation is to save the lives of skiers who get caught in the unfortunate event of a avalanche.
@@ -44,9 +43,9 @@ of survival
 
 ### Physical Description
 The system is divided into two main subsystems: the drone, and the base station. 
-The base station consists of a laptop or tablet running ground control software and a telemetry 
+The base station subsystem consists of a laptop or tablet running ground control software and a telemetry 
 radio to communicate with the drone. 
-The drone consists of the drone itself, a companion computer, (Raspberry Pi Zero 2 W) and our 
+The drone subsystem consists of the drone itself, a companion computer, (Raspberry Pi Zero 2 W) and our 
 custom receiver.
 
 #### Physical Diagram
@@ -56,13 +55,14 @@ custom receiver.
 The base station is the end user interface, providing the ability to configure and 
 launch the drone, as well as the ability to display the locations of discovered victims. 
 The other important piece of the functional system is the companion computer. 
-This computer performs the main logic of the design, interpreting signal strength data coming from the receiver 
-along with location data coming from the drone's flight controller to find the locations of buried victims.
+This computer is the central brain of the system, interpreting signal strength data coming from the receiver 
+along with location data coming from the drone's flight controller, in order to find the locations of buried victims.
 
 ## Current Progress 
 We have demonstrated the ability to measure a WiFi signal from a mobile hotspot and find its location using the drone. 
 Due to time constraints, we decided to implement this backup plan so that we have a working demonstration 
-before we move onto testing and integrating our custom receiver.
+before we move onto testing and integrating our custom receiver. 
+This being said, our ultimate goal is still to have the custom receiver in the final system.
 
 ### Initial Integration Tests
 The following videos are from our first test with the companion computer integrated onto the drone.
