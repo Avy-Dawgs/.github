@@ -71,8 +71,9 @@ https://github.com/user-attachments/assets/d52003d5-fc5f-4227-8c83-529ad4e05b48
 
 https://github.com/user-attachments/assets/4c8f8e11-eded-4c3d-afc4-6c99249d23f9
 
-<img width="480" height="720" alt="IMG_2055 11 36 31 PM" src="https://github.com/user-attachments/assets/958aefd3-bd5c-495e-868f-96d4b4397c0d" />
-<img width="480" height="720" alt="IMG_2054 11 36 31 PM" src="https://github.com/user-attachments/assets/0f3d8892-546a-4324-98ca-66c43fc7ef0f" />
+<!-- comment out images -->
+<!-- <img width="480" height="720" alt="IMG_2055 11 36 31 PM" src="https://github.com/user-attachments/assets/958aefd3-bd5c-495e-868f-96d4b4397c0d" /> -->
+<!-- <img width="480" height="720" alt="IMG_2054 11 36 31 PM" src="https://github.com/user-attachments/assets/0f3d8892-546a-4324-98ca-66c43fc7ef0f" /> -->
 
 ### Receiver
 The receiver has been mostly assembled, but we still have to finish up the
